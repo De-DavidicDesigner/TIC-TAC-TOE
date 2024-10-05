@@ -356,14 +356,30 @@ ol {
     max-width: 30rem;
     border-radius: 20px;
   }
-}
 
-@media (max-width: 900px) {
   #game-board button {
     width: 5rem;
     height: 5rem;
     border: none;
     font-size: 3rem;
     padding: 1rem;
+  }
+
+  .player input {
+    width: 3rem;
+  }
+
+  .player-name {
+    width: 5rem;
+    font-size: 0.7rem;
+  }
+
+  .player-symbol {
+    font-size: 0.7rem;
+  }
+  
+  #players button {
+    width: 2rem;
+    font-size: 0.8rem;
   }
 }
