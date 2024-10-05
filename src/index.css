@@ -349,3 +349,21 @@ ol {
     transform: scale(1);
   }
 }
+
+/* Media query for smaller screen */
+@media (max-width: 900px) {
+  #game-container {
+    max-width: 30rem;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  #game-board button {
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    font-size: 3rem;
+    padding: 1rem;
+  }
+}
