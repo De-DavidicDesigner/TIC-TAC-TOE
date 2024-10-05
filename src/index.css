@@ -370,16 +370,51 @@ ol {
   }
 
   .player-name {
+    padding: 0.3rem;
     width: 5rem;
     font-size: 0.7rem;
   }
 
   .player-symbol {
+    margin-left: 0.4rem;
     font-size: 0.7rem;
   }
   
   #players button {
     width: 2rem;
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 390px) {
+  /* #game-container {
+    max-width: 25rem;
+    border-radius: 5px;
+  } */
+
+  #game-board button {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+  }
+
+  .player input {
+    width: 3rem;
+  }
+
+  .player-name {
+    padding: 0.1rem;
+    width: 4rem;
+    font-size: 0.5rem;
+  }
+
+  .player-symbol {
+    margin-left: 0.2rem;
+    font-size: 0.5rem;
+  }
+  
+  #players button {
+    width: 1rem;
+    font-size: 0.5rem;
   }
 }
